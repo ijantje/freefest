@@ -1,471 +1,761 @@
 <!DOCTYPE html>
 <html>
+
   <?php
-    include('head.php');
-  ?>  
-<body>
-<h1 class="site-map-header">Tough Mudder Site Map</h1>
+    include('head.php')
+  ?>
+
+<body class="site-map-body">
+
+  <?php
+    include('header.php')
+  ?>
+
+
+
+
 <div id="site-map-page">
 
 <div class = "site-map-column" id="home">
-  <div class="first-box">
+  <a href="home.php" class="sitemap-anchor">
+  	<div class="first-box">
     <p class = "number-box" id="column-one">0</p>
     <p class = "number-label first-number-label">Home</p>
   </div>
-    
-  <div class="box-1">
-    <p class = "number-box second-number-box">0.1.0</p>
-    <p class = "number-label second-number-label">International</p>
-    
-  </div>
-  <div class="tier-two-container">
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">0.1.1</p>
-      <p class = "number-label third-number-label">United States</p>
+  </a>  
+  <a href="page.php" class="sitemap-anchor">
+    <div class="box-1">
+      <p class = "number-box second-number-box">0.0.1</p>
+      <p class = "number-label second-number-label">Facebook</p>
     </div>
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">0.1.2</p>
-       <p class = "number-label third-number-label">United Kingdom</p>
+  </a>
 
-      </div>
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">0.1.3</p>
-      <p class = "number-label third-number-label">Australia</p>
+
+  <a href="international.php" class="sitemap-anchor">
+    <div class="box-1">
+      <p class = "number-box second-number-box">0.0.2</p>
+      <p class = "number-label second-number-label">Twitter</p>
     </div>
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">0.1.4</p>
-      <p class = "number-label third-number-label">Germany (Deutsch)</p>
+  </a>
+
+
+  <a href="international.php" class="sitemap-anchor">
+    <div class="box-1">
+      <p class = "number-box second-number-box">0.0.3</p>
+      <p class = "number-label second-number-label">FeedBurner</p>
     </div>
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">0.1.5</p>
-      <p class = "number-label third-number-label">Germany (English)</p>
+  </a>
+
+  <a href="international.php" class="sitemap-anchor">
+    <div class="box-1">
+      <p class = "number-box second-number-box">0.0.4</p>
+      <p class = "number-label second-number-label">YouTube</p>
     </div>
-  </div> <!-- .tier-two-container -->
-  <div class="box-1">
-    <p class = "number-box second-number-box">0.2.0</p>
-    <p class = "number-label second-number-label">Volunteer Now</p>
+  </a>
+     
+  
   </div> 
-  <div class="tier-two-container">
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">0.2.1</p>
-      <p class = "number-label third-number-label">Sign up (USA/Can)</p>
-    </div>
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">0.2.2</p>
-      <p class = "number-label third-number-label">Sign up (UK)</p>  
-    </div>
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">0.2.3</p>
-      <p class = "number-label third-number-label">Sign up (Aus)</p>
-    </div>
-  </div> <!-- .tier-two-container -->
-  <div class="box-1">
-    <p class = "number-box second-number-box">0.3.0</p>
-    <p class = "number-label second-number-label">Tough Mudder Gear</p>
-    
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">0.4.0</p>
-    <p class = "number-label second-number-label">Community</p>
-    
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">0.5.0</p>
-    <p class = "number-label second-number-label">Terms</p>
-    
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">0.6.0</p>
-    <p class = "number-label second-number-label">Privacy</p>  
-  </div>
-
-  </div> <!-- #home -->
+  <!-- #home -->
 
 <div class = "site-map-column" id="events-column">
-  <div class="first-box">
-    <p class = "number-box" id="column-two">1</p>
-    <p class = "number-label first-number-label">Events</p>
-  </div>
+  <a href="events.php" class="sitemap-anchor">
+    <div class="first-box">
+      <p class = "number-box" id="column-two">1</p>
+      <p class = "number-label first-number-label">Events</p>
+    </div>
+  </a>
+  <a href="stadium-of-fire-talent-competition.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.1.0</p>
+      <p class = "number-label second-number-label">Stadium of Fire Talent Competition</p>
+    </div>
+  </a>
+
+  <a href="veterans-day-celebration.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.2.0</p>
+      <p class = "number-label second-number-label">Veterans Day Celebration</p>
+    </div>
+  </a>
+
+  <a href="presidents-day-movie-night.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.3.0</p>
+      <p class = "number-label second-number-label">Presidents Day Movie Night</p>
+    </div>
+  </a>
+
+  <a href="hope-of-america.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.4.0</p>
+      <p class = "number-label second-number-label">Hope of America</p>
+    </div>
+  </a>
+
+  <a href="essay-contest.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.5.0</p>
+      <p class = "number-label second-number-label">2014 Essay Contest</p>
+    </div>
+  </a>
+
+  <a href="patriotic-storytelling-contest.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.6.0</p>
+      <p class = "number-label second-number-label">Patriotic Storytelling Contest</p>
+    </div>
+  </a>
+
+
+  <div class="tier-two-container">
+
+    <a href="patriotic-storytelling-contest-registration.php" class="sitemap-anchor">
     
-  <div class="box-1">
-    <p class = "number-box second-number-box">1.0.0</p>
-    <p class = "number-label second-number-label">Find an Event</p>
-  </div>
-  <div class="tier-two-container">
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">1.0.1</p>
-      <p class = "number-label third-number-label">Event Detail Page</p>
-    </div>
-      <div class="box-4">
-        <p class = "number-box subsequent-number-box">1.0.1.1</p>
-        <p class = "number-label third-number-label">Event Info Packet Page</p>
-      </div>
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">1.0.2</p>
-      <p class = "number-label third-number-label">Event Location Survey (external)</p>
-    </div>
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">1.0.3</p>
-      <p class = "number-label third-number-label">Vote to bring event near you</p>
-    </div><div class="box-3">
-      <p class = "number-box subsequent-number-box">1.0.4</p>
-      <p class = "number-label third-number-label">TM Operations</p>
-    </div>
-  </div> <!-- .tier-two-container -->
-  <div class="box-1">
-    <p class = "number-box second-number-box">1.1.0</p>
-    <p class = "number-label second-number-label">Event Pre-Registration</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">1.2.0</p>
-    <p class = "number-label second-number-label">Send a tough e-card</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">1.3.0</p>
-    <p class = "number-label second-number-label">Spectator Tickets</p>
-  </div>
-  <div class="tier-two-container">
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">1.3.1</p>
-      <p class = "number-label third-number-label">USA 2013</p>
-    </div>
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">1.3.2</p>
-      <p class = "number-label third-number-label">Australia 2013</p>
-    </div>
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">1.3.3</p>
-      <p class = "number-label third-number-label">UK 2013</p>
-    </div>
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">1.3.4</p>
-      <p class = "number-label third-number-label">Canada 2013</p>
-    </div>
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">1.3.5</p>
-      <p class = "number-label third-number-label">Germany 2013</p>
-    </div>
-    </div> <!-- .tier-two-container -->
-  <div class="box-1">
-    <p class = "number-box second-number-box">1.4.0</p>
-    <p class = "number-label second-number-label">Volunteer</p>
-  </div>
-    <div class="tier-two-container">
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">1.4.1</p>
-        <p class = "number-label third-number-label">Volunteer USA</p>
-      </div>
-    </div> <!-- .tier-two-container -->
-  <div class="box-1">
-    <p class = "number-box second-number-box">1.5.0</p>
-    <p class = "number-label second-number-label">Cost & Rebates</p>
-  </div>
-    <div class="tier-two-container">
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">1.5.1</p>
-        <p class = "number-label third-number-label">Team Rebates</p>
-      </div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">1.5.2</p>
-        <p class = "number-label third-number-label">Charity Rebates</p>
-      </div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">1.5.3</p>
-        <p class = "number-label third-number-label">Military Rebates</p>
-      </div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">1.5.4</p>
-        <p class = "number-label third-number-label">Other Rebates</p>
-      </div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">1.5.5</p>
-        <p class = "number-label third-number-label">TM Season Pass 2013</p>
-      </div>
-    </div> <!-- .tier-two-container -->
-  <div class="box-1">
-    <p class = "number-box second-number-box">1.6.0</p>
-    <p class = "number-label second-number-label">World's Toughest Mudder</p>
-  </div>
-    <div class="tier-two-container">
-      <div class="left-cover"></div>
     <div class="box-3">
       <p class = "number-box subsequent-number-box">1.6.1</p>
-      <p class = "number-label third-number-label">WTM Register</p>
+      <p class = "number-label third-number-label">Patriotic storytelling contest registration</p>
     </div>
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">1.6.2</p>
-      <p class = "number-label third-number-label">Support Crew</p>
+  
+  </a>
+
+
+  
+  </div> 
+
+
+
+
+  
+
+  
+  
+
+  <a href="speech-contest.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.7.0</p>
+      <p class = "number-label second-number-label">Speech Contest</p>
     </div>
+  </a>
+
+
+  <div class="tier-two-container">
+
+    <a href="speech-contest-registration.php" class="sitemap-anchor">
+    
     <div class="box-3">
-      <p class = "number-box subsequent-number-box">1.6.3</p>
+      <p class = "number-box subsequent-number-box">1.7.1</p>
+      <p class = "number-label third-number-label">Speech contest registration</p>
+    </div>
+  
+  </a>
+  
+  </div>
+
+
+
+
+
+
+
+  <a href="mayors-prayer-breakfast.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.8.0</p>
+      <p class = "number-label second-number-label">Mayor's Prayer Breakfast</p>
+    </div>
+  </a>
+
+  <a href="historic-provo-tours.php" class="sitemap-anchor">
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.9.0</p>
+      <p class = "number-label second-number-label">Historic Provo Tours</p>
+    </div>
+  </a>
+
+  <a href="video-contest.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.10.0</p>
+      <p class = "number-label second-number-label">Video Contest</p>
+    </div>
+  </a>
+
+
+  <div class="tier-two-container">
+
+    <a href="video-contest-registration.php" class="sitemap-anchor">
+    
+    <div class="box-3">
+      <p class = "number-box subsequent-number-box">1.10.1</p>
+      <p class = "number-label third-number-label">Video Contest registration</p>
+    </div>
+  
+  </a>
+  
+  </div> 
+
+  <a href="flag-retirement-ceremony.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.11.0</p>
+      <p class = "number-label second-number-label">Flag Retirement Ceremony</p>
+    </div>
+  </a>
+
+
+
+
+  <a href="baby-contest.php" class="sitemap-anchor">
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.12.0</p>
+      <p class = "number-label second-number-label">Baby Contest</p>
+    </div>
+  </a>
+
+
+  <a href="carillon-concert.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.13.0</p>
+      <p class = "number-label second-number-label">Carillon Concert</p>
+    </div>
+  </a>
+
+
+  <a href="party-at-riverwoods.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.14.0</p>
+      <p class = "number-label second-number-label">Party at Riverwoods</p>
+    </div>
+  </a>
+
+
+  <a href="firecracker-softball-tournament.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.15.0</p>
+      <p class = "number-label second-number-label">Firecracker Softball Tournament</p>
+    </div>
+  </a>
+
+
+  <a href="utah-symphony-at-sundance.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.16.0</p>
+      <p class = "number-label second-number-label">Utah Symphony at Sundance</p>
+    </div>
+  </a>
+
+
+  <a href="childrens-parade.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.17.0</p>
+      <p class = "number-label second-number-label">Children’s Parade</p>
+    </div>
+  </a>
+
+
+  <a href="patriotic-service.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.18.0</p>
+      <p class = "number-label second-number-label">Patriotic Service</p>
+    </div>
+  </a>
+
+
+  <a href="childrens-art-show.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.19.0</p>
+      <p class = "number-label second-number-label">Children’s Art Show</p>
+    </div>
+  </a>
+
+
+  <a href="freedom-awards-gala.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.20.0</p>
+      <p class = "number-label second-number-label">Freedom Awards Gala</p>
+    </div>
+  </a>
+
+
+  <a href="freedom-3v3-soccer-tournament.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.21.0</p>
+      <p class = "number-label second-number-label">Freedom 3v3 Soccer Tournament</p>
+    </div>
+  </a>
+
+
+  <a href="freedom-days.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.22.0</p>
+      <p class = "number-label second-number-label">Freedom Days</p>
+    </div>
+  </a>
+
+
+  <div class="tier-two-container">
+
+    <a href="freedom-days-vendor-application.php" class="sitemap-anchor">
+    
+    <div class="box-3">
+      <p class = "number-box subsequent-number-box">1.22.1</p>
+      <p class = "number-label third-number-label">Freedom Days Vendor Application</p>
+    </div>
+  
+  </a>
+  
+  </div>
+
+
+
+  <a href="constitution-hall.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.23.0</p>
+      <p class = "number-label second-number-label">Constitution Hall</p>
+    </div>
+  </a>
+
+  <a href="walk-of-freedom.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.24.0</p>
+      <p class = "number-label second-number-label">Cries of Freedom and The Walk of Freedom</p>
+    </div>
+  </a>
+
+
+  <a href="colonial-fest.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.25.0</p>
+      <p class = "number-label second-number-label">Colonial Fest</p>
+    </div>
+  </a>
+
+
+  <a href="balloon-fest.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.26.0</p>
+      <p class = "number-label second-number-label">Balloon Fest</p>
+    </div>
+  </a>
+
+
+  <a href="stadium-of-fire.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.27.0</p>
+      <p class = "number-label second-number-label">Stadium of Fire</p>
+    </div>
+  </a>
+
+
+  <a href="freedom-run.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.28.0</p>
+      <p class = "number-label second-number-label">Freedom Run</p>
+    </div>
+  </a>
+
+  <div class="tier-two-container">
+
+    <a href="freedom-run-registration.php" class="sitemap-anchor">
+    
+    <div class="box-3">
+      <p class = "number-box subsequent-number-box">1.28.1</p>
+      <p class = "number-label third-number-label">Freedom Run Registration</p>
+    </div>
+  
+  </a>
+
+  
+
+
+
+  <a href="freedom-run-volunteers.php" class="sitemap-anchor">
+    
+    <div class="box-4">
+      <p class = "number-box subsequent-number-box">1.28.1.1</p>
+      <p class = "number-label third-number-label">Freedom Run Volunteers</p>
+    </div>
+  </a>
+
+
+  
+
+  <a href="packet-pickup.php" class="sitemap-anchor">
+    
+    <div class="box-3">
+      <p class = "number-box subsequent-number-box">1.28.2</p>
+      <p class = "number-label third-number-label">Packet-Pickup</p>
+    </div>
+  
+  </a>
+
+
+  <a href="10k-race-info.php" class="sitemap-anchor">
+    
+    <div class="box-3">
+      <p class = "number-box subsequent-number-box">1.28.3</p>
+      <p class = "number-label third-number-label">10K Race Info</p>
+    </div>
+  
+  </a>
+
+  <a href="10k-running-routes.php" class="sitemap-anchor">
+    
+    <div class="box-4">
+      <p class = "number-box subsequent-number-box">1.28.3.1</p>
+      <p class = "number-label third-number-label">USATF - America's Running Routes (10k)</p>
+    </div>
+  </a>
+
+
+  <a href="5k-race-info.php" class="sitemap-anchor">
+    
+    <div class="box-3">
+      <p class = "number-box subsequent-number-box">1.28.4</p>
+      <p class = "number-label third-number-label">5K Race Info</p>
+    </div>
+  
+  </a>
+  
+
+
+
+  <a href="5k-running-routes.php" class="sitemap-anchor">
+    
+    <div class="box-4">
+      <p class = "number-box subsequent-number-box">1.28.4.1</p>
+      <p class = "number-label third-number-label">USATF - America's Running Routes (5k)</p>
+    </div>
+  </a>
+
+
+
+  <a href="1-mile-race-info.php" class="sitemap-anchor">
+    
+    <div class="box-3">
+      <p class = "number-box subsequent-number-box">1.28.5</p>
+      <p class = "number-label third-number-label">1 Mile Race Info</p>
+    </div>
+  
+  </a>
+
+  <a href="1mile-running-routes.php" class="sitemap-anchor">
+    
+    <div class="box-4">
+      <p class = "number-box subsequent-number-box">1.28.5.1</p>
+      <p class = "number-label third-number-label">USATF - America's Running Routes (1 mile)</p>
+    </div>
+  </a>
+
+
+  <a href="results.php" class="sitemap-anchor">
+    
+    <div class="box-3">
+      <p class = "number-box subsequent-number-box">1.28.6</p>
+      <p class = "number-label third-number-label">Results</p>
+    </div>
+  
+  </a>
+
+
+  <a href="faq.php" class="sitemap-anchor">
+    
+    <div class="box-3">
+      <p class = "number-box subsequent-number-box">1.28.7</p>
       <p class = "number-label third-number-label">FAQ</p>
     </div>
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">1.6.4</p>
-      <p class = "number-label third-number-label">Official Rules</p>
+  
+  </a>
+
+
+  </div>
+
+
+  
+
+
+  
+
+   <!-- .tier-two-container -->
+  <a href="grand-parade.php" class="sitemap-anchor">
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.29.0</p>
+      <p class = "number-label second-number-label">Grand Parade</p>
     </div>
+  </a>
+
+  <div class="tier-two-container">
+
+  <a href="parade-application.php" class="sitemap-anchor">
+    
     <div class="box-3">
-      <p class = "number-box subsequent-number-box">1.6.5</p>
-      <p class = "number-label third-number-label">Gear Recommendation</p>
+      <p class = "number-box subsequent-number-box">1.29.1</p>
+      <p class = "number-label third-number-label">Parade Application</p>
     </div>
+  
+  </a>
+
+
+  <a href="parade-vendor-application.php" class="sitemap-anchor">
+    
     <div class="box-3">
-      <p class = "number-box subsequent-number-box">1.6.6</p>
-      <p class = "number-label third-number-label">2011 WTM Recap</p>
+      <p class = "number-box subsequent-number-box">1.29.2</p>
+      <p class = "number-label third-number-label">Parade Vendor Application</p>
     </div>
+  
+  </a>
+
+  <a href="parade-map.php" class="sitemap-anchor">
+    
     <div class="box-3">
-      <p class = "number-box subsequent-number-box">1.6.7</p>
-      <p class = "number-label third-number-label">2012 WTM Recap</p>
-    </div>  
+      <p class = "number-box subsequent-number-box">1.29.3</p>
+      <p class = "number-label third-number-label">Parade Map</p>
+    </div>
+  
+  </a>
+
+  <a href="grand-parade-rules.php" class="sitemap-anchor">
+    
+    <div class="box-3">
+      <p class = "number-box subsequent-number-box">1.29.4</p>
+      <p class = "number-label third-number-label">Grand Parade Rules</p>
+    </div>
+  
+  </a>
+
+  <a href="pre-parade-rules.php" class="sitemap-anchor">
+    
+    <div class="box-3">
+      <p class = "number-box subsequent-number-box">1.29.5</p>
+      <p class = "number-label third-number-label">Pre-Parade Rules</p>
+    </div>
+  
+  </a>
+  
+   
+  
+    </div> <!-- .tier-two-container -->
+  <a href="liberty-tour.php" class="sitemap-anchor">
+    <div class="box-1">
+      <p class = "number-box second-number-box">1.30.0</p>
+      <p class = "number-label second-number-label">Liberty Tour</p>
+    </div>
+  </a>
+  
+    <div class="tier-two-container">
+      <div class="left-cover"></div>
+  
+  
+  
     </div> <!-- .tier-two-container -->
 </div> <!-- #events-column -->
-<div class = "site-map-column" id="about-column">
-  <div class="first-box">
-    <p class = "number-box" id="column-three">2</p>
-    <p class = "number-label first-number-label">About</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">2.1.0</p>
-    <p class = "number-label second-number-label">What is Tough Mudder?</p>
-  </div>  
-  <div class="box-1">
-    <p class = "number-box second-number-box">2.2.0</p>
-    <p class = "number-label second-number-label">Obstacles</p>
-  </div>
-    <div class="tier-two-container">  
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">2.2.x</p>
-        <p class = "number-label third-number-label">Obstacle detail page</p>
-      </div>
-    </div> <!-- .tier-two-container -->
-  <div class="box-1">
-    <p class = "number-box second-number-box">2.3.0</p>
-    <p class = "number-label second-number-label">Frequently Asked Questions</p>
-  </div>  
-  <div class="box-1">
-    <p class = "number-box second-number-box">2.4.0</p>
-    <p class = "number-label second-number-label">Wounded Warrior Project</p>
-  </div>  
-  <div class="box-1">
-    <p class = "number-box second-number-box">2.5.0</p>
-    <p class = "number-label second-number-label">Post party &amp; Awards</p>
-  </div>  
-  <div class="box-1">
-    <p class = "number-box second-number-box">2.6.0</p>
-    <p class = "number-label second-number-label">Sponsor Opportunities</p>
-  </div>  
-  <div class="box-1">
-    <p class = "number-box second-number-box">2.7.0</p>
-    <p class = "number-label second-number-label">Join our Team</p>
-  </div>
-  <div class="tier-two-container">
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">2.7.1</p>
-      <p class = "number-label third-number-label">Current Opportunites</p>
+<div class = "site-map-column" id="obstacles-column">
+  <a href="stadium-of-fire.php" class="sitemap-anchor">
+    <div class="first-box">
+      <p class = "number-box" id="column-three">2</p>
+      <p class = "number-label first-number-label">Stadium of Fire</p>
     </div>
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">2.7.2</p>
-      <p class = "number-label third-number-label">Why work at Tough Mudder?</p>
-    </div>
-    <div class="box-4">
-      <p class = "number-box subsequent-number-box">2.7.2.1</p>
-      <p class = "number-label third-number-label">THMQ Credo</p>
-    </div>
-    <div class="box-4">
-      <p class = "number-box subsequent-number-box">2.7.2.2</p>
-      <p class = "number-label third-number-label">25 Reasons</p>
-    </div>
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">2.7.3</p>
-      <p class = "number-label third-number-label">TMHQ Histor, Mission, &amp; Values</p>
-    </div>  
-  </div> <!-- .tier-two-container -->
-  <div class="box-1">
-    <p class = "number-box second-number-box">2.8.0</p>
-    <p class = "number-label second-number-label">TMHQ Staff Bios</p>
-  </div>  
-  <div class="box-1">
-    <p class = "number-box second-number-box">2.9.0</p>
-    <p class = "number-label second-number-label">Contact Us</p>
-  </div>
-    <div class="tier-two-container">  
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">2.1.0</p>
-        <p class = "number-label third-number-label">Home</p>
-      </div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">2.1.0</p>
-        <p class = "number-label third-number-label">Home</p>
-      </div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">2.1.0</p>
-        <p class = "number-label third-number-label">Home</p>
-      </div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">2.1.0</p>
-        <p class = "number-label third-number-label">Home</p>
-      </div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">2.1.0</p>
-        <p class = "number-label third-number-label">Home</p>
-      </div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">2.1.0</p>
-        <p class = "number-label third-number-label">Home</p>
-      </div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">2.1.0</p>
-        <p class = "number-label third-number-label">Home</p>
-      </div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">2.1.0</p>
-        <p class = "number-label third-number-label">Home</p>
-      </div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">2.1.0</p>
-        <p class = "number-label third-number-label">Home</p>
-      </div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">2.1.0</p>
-        <p class = "number-label third-number-label">Home</p>
-      </div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">2.1.0</p>
-        <p class = "number-label third-number-label">Home</p>
-      </div>
-    </div> <!-- .tier-two-container -->
+    </a>
+
+  <a href="meet-and-greet-photos.php" class="sitemap-anchor"> 
     <div class="box-1">
-      <p class = "number-box second-number-box">2.10.0</p>
-      <p class = "number-label second-number-label">Our Offices</p>
+      <p class = "number-box second-number-box">2.1.0</p>
+      <p class = "number-label second-number-label">Meet and Greet Photos</p>
+    </div> 
+  </a>
+    
+  <a href="americas-freedom-festival-at-provo.php" class="sitemap-anchor"> 
+    <div class="box-1">
+      <p class = "number-box second-number-box">2.2.0</p>
+      <p class = "number-label second-number-label">America's Freedom Festival at Provo</p>
+    </div> 
+  </a>
+
+  
+</div> <!-- #stadium_of_Fire-column -->
+<div class = "site-map-column" id="muddernation-column" style="border-left:none;">
+  <a href="parade.php" class="sitemap-anchor"> 
+    <div class="first-box">
+      <p class = "number-box" id="column-four">3</p>
+      <p class = "number-label first-number-label">Parade</p>
     </div>
-</div> <!-- #about-column -->
-<div class = "site-map-column" id="media-column">
-  <div class="first-box">
-    <p class = "number-box" id="column-four">3</p>
-    <p class = "number-label first-number-label">Media</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">3.1.0</p>
-    <p class = "number-label second-number-label">Videos</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">3.2.0</p>
-    <p class = "number-label second-number-label">Photos</p>
-  </div>
-  <div class="tier-two-container">
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">3.2.1</p>
-      <p class = "number-label third-number-label">Mudder Photos</p>
-    </div>
-    <div class="box-3">
-      <p class = "number-box subsequent-number-box">3.2.2</p>
-      <p class = "number-label third-number-label">Buy Photos</p>
-    </div>  
-  </div> <!-- .tier-two-container --> 
-  <div class="box-1">
-    <p class = "number-box second-number-box">3.3.0</p>
-    <p class = "number-label second-number-label">Press Room Home</p>
-  </div>
-    <div class="tier-two-container">  
-      <div class="left-cover"></div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">3.3.1</p>
-        <p class = "number-label third-number-label">Media Contacts</p>
-      </div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">3.3.2</p>
-        <p class = "number-label third-number-label">Facts and Figures</p>
-      </div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">3.3.3</p>
-        <p class = "number-label third-number-label">Press room photos</p>
-      </div>
-      <div class="box-3">
-        <p class = "number-box subsequent-number-box">3.3.4</p>
-        <p class = "number-label third-number-label">Press releases</p>
-      </div>
-    </div> <!-- .tier-two-container -->
-</div> <!-- #media-column -->
+  </a>
+  
+</div> <!-- #muddernation-column -->
+
+
+
+
 <div class = "site-map-column" id="training-column">
+  <a href="vendors.php" class="sitemap-anchor">
+    <div class="first-box">
+      <p class = "number-box" id="column-five">4</p>
+      <p class = "number-label first-number-label">Vendors</p>
+    </div>
+  </a>
+  <a href="freedom-days-vendor-application.php" class="sitemap-anchor">
+    <div class="box-1">
+      <p class = "number-box second-number-box">4.1.0</p>
+      <p class = "number-label second-number-label">Freedom Days Vendor Application</p>
+    </div>
+  </a>
+  <a href="parade-application.php" class="sitemap-anchor">
+    <div class="box-1">
+      <p class = "number-box second-number-box">4.2.0</p>
+      <p class = "number-label second-number-label">Parade Application</p>
+    </div>
+  </a>
+
+  <a href="parade-vendor-application.php" class="sitemap-anchor">
+    <div class="box-1">
+      <p class = "number-box second-number-box">4.3.0</p>
+      <p class = "number-label second-number-label">Parade Vendor Application</p>
+    </div>
+  </a>
+
+</div> <!-- #vendors-column -->
+
+
+
+
+
+
+<div class = "site-map-column" id="shop-column">
+  <a href="get_involved.php" class="sitemap-anchor"> 
+     <div class="first-box">
+      <p class = "number-box" id="column-three">5</p>
+      <p class = "number-label first-number-label">Get Involved</p>
+    </div>
+  </a>
+
+  <a href="sponsors.php" class="sitemap-anchor">
+    <div class="box-1">
+      <p class = "number-box second-number-box">5.1.0</p>
+      <p class = "number-label second-number-label">Sponsors</p>
+    </div>
+  </a>
+
+  <a href="volunteers.php" class="sitemap-anchor">
+    <div class="box-1">
+      <p class = "number-box second-number-box">5.2.0</p>
+      <p class = "number-label second-number-label">Volunteers</p>
+    </div>
+  </a>
+
+  <div class="tier-two-container">
+
+  <a href="volunteer-registration.php" class="sitemap-anchor">
+    
+    <div class="box-3">
+      <p class = "number-box subsequent-number-box">5.2.1</p>
+      <p class = "number-label third-number-label">Volunteer Registration</p>
+    </div>
+  
+  </a>
+  </div>
+
+
+  <a href="make-a-donation.php" class="sitemap-anchor">
+    <div class="box-1">
+      <p class = "number-box second-number-box">5.3.0</p>
+      <p class = "number-label second-number-label">Make a Donation</p>
+    </div>
+  </a>
+
+
+
+
+
+
+
+</div> <!-- #get_involved-column -->
+
+
+
+
+
+
+
+
+
+<div class = "site-map-column" id="footer-pages-column">
+  <a href="about_us.php" class="sitemap-anchor"> 
   <div class="first-box">
-    <p class = "number-box" id="column-five">4</p>
-    <p class = "number-label first-number-label">Training</p>
+    <p class = "number-box" id="column-eight">6</p>
+    <p class = "number-label first-number-label">About Us</p>
+  	</div>
+  </a>
+
+  <a href="product-categories.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">6.1.0</p>
+      <p class = "number-label second-number-label">Product Categories</p>
+    </div>
+  </a>
+  <a href="contact-us.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">6.2.0</p>
+      <p class = "number-label second-number-label">Contact Us</p>  
+    </div>
+  </a>
+  <a href="press-room.php" class="sitemap-anchor">  
+    <div class="box-1">
+      <p class = "number-box second-number-box">6.3.0</p>
+      <p class = "number-label second-number-label">Press Room</p>
+    </div>
+   </a>
+
+   <div class="tier-two-container">
+
+  <a href="press-pass-registration.php" class="sitemap-anchor">
+    
+    <div class="box-3">
+      <p class = "number-box subsequent-number-box">6.3.1</p>
+      <p class = "number-label third-number-label">Press Pass Registration</p>
+    </div>
+  
+  </a>
   </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">4.1.0</p>
-    <p class = "number-label second-number-label">How Other Mudders Train</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">4.2.0</p>
-    <p class = "number-label second-number-label">No Bull*</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">4.3.0</p>
-    <p class = "number-label second-number-label">TM Boot Camp</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">4.4.0</p>
-    <p class = "number-label second-number-label">TM Trainers</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">4.5.0</p>
-    <p class = "number-label second-number-label">Gear Up (external link)</p>
-  </div>
-</div> <!-- #training-column -->
-<div class = "site-map-column" id="registration-column">
+
+
+
+
+
+  <a href="officers.php" class="sitemap-anchor">  
+   <div class="box-1">
+      <p class = "number-box second-number-box">6.4.0</p>
+      <p class = "number-label second-number-label">Officers</p>
+    </div>
+  </a>
+  
+  
+   
+  
+</div> <!-- #about-us-column -->
+
+
+
+
+
+
+<div class = "site-map-column" id="footer-pages-column">
+  <a href="blog.php" class="sitemap-anchor"> 
   <div class="first-box">
-    <p class = "number-box" id="column-six">5</p>
-    <p class = "number-label first-number-label">Registration</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">5.1.0</p>
-    <p class = "number-label second-number-label">Register as participant</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">5.2.0</p>
-    <p class = "number-label second-number-label">No Bull*</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">5.3.0</p>
-    <p class = "number-label second-number-label">TM Boot Camp</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">5.4.0</p>
-    <p class = "number-label second-number-label">TM Trainers</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">5.5.0</p>
-    <p class = "number-label second-number-label">Gear Up (external link)</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">5.6.0</p>
-    <p class = "number-label second-number-label">How Other Mudders Train</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">5.7.0</p>
-    <p class = "number-label second-number-label">No Bull*</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">5.8.0</p>
-    <p class = "number-label second-number-label">TM Boot Camp</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">5.9.0</p>
-    <p class = "number-label second-number-label">TM Trainers</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">5.10.0</p>
-    <p class = "number-label second-number-label">Gear Up (external link)</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">5.11.0</p>
-    <p class = "number-label second-number-label">TM Boot Camp</p>
-  </div>
-  <div class="box-1">
-    <p class = "number-box second-number-box">5.12.0</p>
-    <p class = "number-label second-number-label">TM Trainers</p>
-  </div>
-</div> <!-- #registration-column -->
-<div class="clear"> </div>
+    <p class = "number-box" id="column-nine">7</p>
+    <p class = "number-label first-number-label">Blog</p>
+    </div>
+    </a>
+   
+    <div class="box-1">
+      <p class = "number-box second-number-box">7.1.∞</p>
+      <p class = "number-label second-number-label">Blog List Pages</p>
+    </div>
+ 
+  
+ 
+
+</div> <!-- #about-us-column -->
+
+
+
+  <div class="clear"> </div>
 
   </div> <!-- .page -->
 
