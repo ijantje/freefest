@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-		
+
 	<?php
 		include('head.php')
 	?>
@@ -10,13 +10,13 @@
 	<?php
 		include('header.php')
 	?>
-	
+
 	<div id="page">
 		
 		<div id="content">
 			
 			<div id="page-table">
-				<h1>Veterans Day Celebration</h1>
+				<h1>Parade Map</h1>
 				<div>
 					<div class="source-material-maintenance-column">
 						<h3>Source Material</h3>

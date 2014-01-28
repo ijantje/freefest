@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
-		
-	<?php
-		include('head.php')
-	?>
-
+	<head>
+	
+	<title>America's Freedom Festival</title>
+	<meta charset="UTF-8">
+	<link href="http://freedomfestival.org/favicon.ico" type="img/x-icon" rel="icon">
+	<link href="css/reset.css" type="text/css" rel="stylesheet">
+	<link href="css/main.css" type="text/css" rel="stylesheet">
+	<meta name="viewport" content="initial-scale=1">
+</head>
 	<body>
 
-	<?php
-		include('header.php')
-	?>
-	
+	<header>
+			<a id="logo" href="index.php"><img src="http://www.mediarain.com/img/rain-logo-sprite.png" alt="Rain logo" /></a>
+			<a href="index.html"><h1>America's Freedom Festival</h1></a>
+			<h6 id="revision-date">Revised 01/20/2013</h6>
+			<div class="clear"></div>
+	</header>
+
 	<div id="page">
 		
 		<div id="content">
 			
 			<div id="page-table">
-				<h1>Veterans Day Celebration</h1>
+				<h1>Constitution Hall</h1>
 				<div>
 					<div class="source-material-maintenance-column">
 						<h3>Source Material</h3>

@@ -16,24 +16,24 @@
 		<div id="content">
 			
 			<div id="page-table">
-				<h1>Veterans Day Celebration</h1>
+				<h1>Vendors</h1>
 				<div>
 					<div class="source-material-maintenance-column">
 						<h3>Source Material</h3>
 						<p>
-							Current site // recommendations
+							<a target="_blank" href="http://www.freedomfestival.org/vendors/">Current Page</a> //
 						</p>
 					<h4>Maintenance</h4>
 						<p>Should be reviewed semi-annually for any copy that requires updating</p>
-						<p>Video should be updated annually</p>
+						<p>More attention to updates should be given as festival approaches</p>
 					</div> <!-- .source-material-maintenance-column -->
 					<div class="objective-column">
 						<h3>Objective</h3>
 						<p>
-							Clearly communicate brand identity &mdash; Example
+							Drive signing up for vendor spots.  &mdash; Clear CTAs to apply/sign-up.
 						</p>
 						<p>
-							Illuminate nature of festival events
+							Provide steps and what is required to sign up as a vendor. Highlight Benefits.
 						</p>
 					</div> <!-- .objective-column -->
 				</div>
@@ -41,36 +41,36 @@
 				<h4>Key Messages</h4>
 
 				<div class="key-messages-column">
-					<h5>Persona 1</h5>
+					<h5>Family Man Fred</h5>
 					<h6>Priority 1</h6>
 						<p>
-							Message text goes here.
+							Is there a list of vendors? Would any interest my kids?
 						</p>
 					<h6>Priority 2</h6>
 						<p>
-							Message text goes here.
+							Where are they located (map)? When are they open?
 						</p>
 				</div> <!-- .key-messages-column -->
 				<div class="key-messages-column">
-					<h5>Persona 2</h5>
+					<h5>Volunteer Vicky</h5>
 					<h6>Priority 1</h6>
 						<p>
-							Message text goes here.
+							Will my volunteering help any of the local vendors?
 						</p>
 					<h6>Priority 2</h6>
 						<p>
-							Message text goes here.
+							--
 						</p>
 				</div> <!-- .key-messages-column -->
 				<div class="key-messages-column">
-					<h5>Persona 3</h5>
+					<h5>Spencer le Vendor</h5>
 					<h6>Priority 1</h6>
 						<p>
-							Message text goes here.
+							How do I and what is required to sign up?
 						</p>
 					<h6>Priority 2</h6>
 						<p>
-							Message text goes here.
+							What is going to be my ROI for this?
 						</p>
 				</div> <!-- .key-messages-column -->
 				<div class="clear"></div>

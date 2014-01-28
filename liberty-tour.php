@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-		
+			
 	<?php
 		include('head.php')
 	?>
@@ -16,7 +16,7 @@
 		<div id="content">
 			
 			<div id="page-table">
-				<h1>Veterans Day Celebration</h1>
+				<h1>Liberty Tour</h1>
 				<div>
 					<div class="source-material-maintenance-column">
 						<h3>Source Material</h3>

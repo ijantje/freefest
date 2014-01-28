@@ -16,24 +16,24 @@
 		<div id="content">
 			
 			<div id="page-table">
-				<h1>Veterans Day Celebration</h1>
+				<h1>Get Involved</h1>
 				<div>
 					<div class="source-material-maintenance-column">
 						<h3>Source Material</h3>
 						<p>
-							Current site // recommendations
+							<a target="_blank" href="http://www.freedomfestival.org/get-involved/">Current Page</a> //
 						</p>
 					<h4>Maintenance</h4>
 						<p>Should be reviewed semi-annually for any copy that requires updating</p>
-						<p>Video should be updated annually</p>
+						
 					</div> <!-- .source-material-maintenance-column -->
 					<div class="objective-column">
 						<h3>Objective</h3>
 						<p>
-							Clearly communicate brand identity &mdash; Example
+							Drive volunteer signup &mdash; Clear CTAs, list of available spots.
 						</p>
 						<p>
-							Illuminate nature of festival events
+							Highlight giving back to community and comradarie with fellow volunteers.
 						</p>
 					</div> <!-- .objective-column -->
 				</div>
@@ -41,36 +41,36 @@
 				<h4>Key Messages</h4>
 
 				<div class="key-messages-column">
-					<h5>Persona 1</h5>
+					<h5>Family Man Fred</h5>
 					<h6>Priority 1</h6>
 						<p>
-							Message text goes here.
+							Is there need for a family to volunteer? - Could be a good learning experience for the kids.
 						</p>
 					<h6>Priority 2</h6>
 						<p>
-							Message text goes here.
+							What areas are staffed with volunteers in case I need help on-site?
 						</p>
 				</div> <!-- .key-messages-column -->
 				<div class="key-messages-column">
-					<h5>Persona 2</h5>
+					<h5>Volunteer Vicky</h5>
 					<h6>Priority 1</h6>
 						<p>
-							Message text goes here.
+							In what ways can I help? What's available?
 						</p>
 					<h6>Priority 2</h6>
 						<p>
-							Message text goes here.
+							In which capacity would I be most effective?
 						</p>
 				</div> <!-- .key-messages-column -->
 				<div class="key-messages-column">
-					<h5>Persona 3</h5>
+					<h5>Spencer le Vendor</h5>
 					<h6>Priority 1</h6>
 						<p>
-							Message text goes here.
+							Am I able to get volunteers to help me out?
 						</p>
 					<h6>Priority 2</h6>
 						<p>
-							Message text goes here.
+							I wonder if those of us with my business could be useful somewhere?
 						</p>
 				</div> <!-- .key-messages-column -->
 				<div class="clear"></div>
