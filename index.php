@@ -17,7 +17,7 @@
 				<h1>Index</h1>
 				<h4>Site Map</h4>
 				<h4>Wireframes</h4>
-				<h4>Comps</h4>
+				<h4>Comp</h4>
 				<h4>Personas</h4>
 				<h4>Project 
 			</div> <!-- #page-table -->
