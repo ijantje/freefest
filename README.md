@@ -1,4 +1,4 @@
-tough-mudder
+freedom festival
 ============
 
-Tough Mudder repository
+Freedom Festival content strategy repository
