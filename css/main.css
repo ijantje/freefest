@@ -1,0 +1,481 @@
+/********************************************************************************
+Rain CSS Coding Standards outlined at http://standards.mediarain.com/html-css
+
+	@Section: Applies to all page sections
+	**Search for @ symbol or @Section: to search by category
+
+	Color Reference:
+    	white: #FFFFFF
+    	black: #000000
+    	 gray: #333333
+
+	Font-Family Reference:
+	
+
+********************************************************************************/
+
+
+
+/************************************
+
+	@Search: Global
+
+************************************/
+
+
+body {
+	background: #bababa;
+	color: #494549;
+	font-family: Gotham, Helvetica Neue, sans-serif;
+}
+a {
+	text-decoration: none;
+	outline: none;
+	overflow: hidden;
+	color: #ffffff;
+}
+a:hover {
+	text-decoration: none;
+	outline: none;
+	overflow: hidden;
+	color: #ff6700;
+}
+a:active {
+	text-decoration: none;
+	outline: none;
+	overflow: hidden;
+}
+a:visited {
+	text-decoration: none;
+	outline: none;
+	overflow: hidden;
+}
+sup {
+	font-size: 60%;
+	vertical-align: top;
+}
+.clear {
+	clear: both;
+	display: block;
+}
+
+
+
+/*******************************************
+
+	@Section: Type
+
+*******************************************/
+
+
+b {
+	font-weight: 700;
+}
+em {
+	font-style: oblique;
+}
+h1 {
+	font-size: 2em;
+	font-weight: 800;
+	margin:.5em .5em 1.5em 0;
+}
+h2 {
+	font-size: 1.5em;
+	font-style: italic;
+	margin:.5em .5em 1.25em 0
+}
+h3 {
+	font-size: 1.25em;
+	font-weight: 800;
+	margin:.5em .5em 1em 0
+}
+h4 {
+	font-size: 1em;
+	font-weight: 800;
+	margin:1.5em .5em .5em 0
+}
+h5 {
+	font-size: 1em;
+	font-weight: 500;
+	margin:.5em .5em .5em 0;
+	font-style:italic;
+}
+h6 {
+	font-size: .8em;
+	font-weight: 300;
+	margin:.5em .5em 1em 0
+}
+p {
+	line-height: 1.5;
+	margin: .5em 0 1em .5em;
+	font-size: .8em;
+}
+
+
+
+/*******************************************
+
+	@Section: Forms
+
+*******************************************/
+
+
+form {
+	
+}
+
+
+
+/*******************************************
+
+	@Section: Header
+
+*******************************************/
+
+
+header {
+	width: 100%;
+	height: 4em;
+	margin: 0 auto 0 auto;
+	position: relative;
+	padding: 1em;
+	background: #222222;
+}
+
+header a {
+	margin:0 0 0 0em;
+}
+header p {
+	margin: 0 54em 0 3em;
+}
+
+header a#logo {
+	background: url(http://www.mediarain.com/img/rain-logo-sprite.png) no-repeat;
+	background-size: 3.7em ;
+	text-indent: -9999px;
+	display: block;
+	width: 9em;
+	height: 1.1em;
+	margin: 1em 0 0 3em;
+	float: right;
+}
+header h1 {
+	color:#33CCFF;
+	margin: .3em 0 0 1em;
+}
+
+#revision-date {
+	margin: 1em 0 0 3em;
+	color: #838083;
+	font-size: .7em;
+}
+
+
+
+/*******************************************
+
+	@Section: Navigation
+
+*******************************************/
+
+
+
+/*******************************************
+
+	@Section: Footer
+
+*******************************************/
+
+
+footer {
+	background: #353235;
+	color: #e6e5e6;
+	font-size: .8em;
+	line-height: 1.75;
+	/*height: 10em;*/
+	padding:2em;
+}
+
+footer a{
+	color:#e6e5e6;
+}
+footer ul.footer-column {
+	float: left;
+	margin: 0 3em 0 3em;
+
+}
+footer ul.second-tier-footer-ul {
+	
+	margin-left: 1em;
+
+}
+
+
+/*******************************************
+
+	@Section: Home Page Content
+
+*******************************************/
+
+#page {
+	width: 60em;
+	margin:auto;
+}
+#page-table {
+	background: #ffffff;
+	padding:2em;
+}
+
+#content {
+	
+}
+#content h1,h2,h3 {
+
+}
+
+.key-messages-column {
+	width:26%;
+	padding: 1.2em;
+	float: left;
+	margin:0 1.5em 0 0;
+	background: #fff;
+}
+.objective-column {
+	width:58%;
+	height:10.5em;
+	float: left;
+	margin: 0 2.7em 0 -8.9em;
+	background: #B0E6F4;
+	padding:1em 2em;
+	border-radius: 0 1em 1em 0;
+
+}
+.source-material-maintenance-column {
+	padding: .2em 1.5em 2.8em 2.5em;
+	float: left;
+	background: #FFF1AB;
+	border-radius: 0 1em 1em 0;
+	width:36%;
+	height: 9.5em;
+	margin: 0 -50.7em 0 33.5em;
+
+}
+
+
+
+.objective-column p {
+	font-size: 1.2em;
+}
+.objective-column li {
+	line-height: 2em;
+	list-style-type: square;
+	margin: 0 0 0 2.5em;
+}
+.key-messages-column p, .source-material-maintenance-column p {
+	font-size: .7em;
+
+}
+
+.persona-table {
+	font-size: .7em;
+	margin:3em 0 0 0;
+}
+.persona-table td,th {
+	padding:.7em 2.5em .7em 2.5em;
+}
+.persona-table th {
+	font-size:1.2em;
+	font-weight: 800;
+	text-align: center;
+	padding:0 0 1.5em 0;
+}
+.persona-table td.first-column {
+	font-size:1.2em;
+	font-weight: 800;
+	text-align: right;
+}
+.persona-table td.description {
+	font-size:1.2em;
+}
+.persona-table tr.colored-row {
+	background: #efefef;
+}
+.persona-table li {
+	padding: .2em;
+	list-style-type: circle;
+}
+/*******************************************
+
+	@Section: site-map-page
+
+*******************************************/
+
+#site-map-page {
+	background: #dcdcdc;
+	padding:3em;
+}
+.site-map-header {
+	margin:1em;
+	color:#f60;
+}
+.first_box {
+  position:relative;
+}
+.box-1 {
+  border-bottom:#888888 solid 2pt;
+  width:66px;
+  height: 42px;
+  position:relative;
+}
+.number-box {
+  border:#888888 solid 2pt;
+  padding:3px 8px 3px 3px;
+  width:20px;
+  height:10px;
+  font-size:.5em;
+  margin:-2px 0 0 -2px;
+  text-align: center;
+}
+.second-number-box {
+  position:absolute;
+  bottom:-2px;
+  right:0; 
+  background:#888888;
+  color:#ffffff;
+}
+.subsequent-number-box {
+  position:absolute;
+  bottom:-2px;
+  right:0; 
+  background:#ffffff;
+}
+
+.box-3 {
+  border-left:#888888 solid 2pt;
+  border-bottom:#888888 solid 2pt;
+  margin: -9px 0 0 -2px;
+  width:72px;
+  height: 42px;
+  position:relative;
+  
+}
+.box-4 {
+  border-left:#888888 solid 2pt;
+  border-bottom:#888888 solid 2pt;
+  margin: -7px 0 0 37px;
+  width:72px;
+  height: 42px;
+  position:relative;
+  
+}
+.number-label {
+  font-size:.7em;
+  font-weight:800;
+  font-family:sans-serif;
+  position: relative;
+  width:150px;
+}
+
+.first-number-label {
+  top:-30px;
+  left: 30px;
+  font-size: 1em;
+  
+}
+
+.second-number-label {
+  top:29px;
+  left:67px;
+  
+}
+
+.third-number-label {
+  top:29px;
+  left: 72px;
+  font-weight:100;
+  
+}
+#column-one {
+  background:#bc2593;
+  color:#ffffff;
+}
+#column-two {
+  background:#f8f487;
+  color:#0b400f;
+}
+#column-three {
+  background:#bd3232;
+  color:#ffffff;
+}
+#column-four {
+  background:#214763;
+  color:#ffffff;
+}
+#column-five {
+  background:#0f9a95;
+  color:#ffffff;
+}
+#column-six {
+  background:#1d8d25;
+  color:#ffffff;
+}
+#column-seven {
+  background:#ef8c22;
+  color:#ffffff;
+}
+#column-eight {
+  background:#bc2593;
+  color:#ffffff;
+}
+#column-nine {
+  background:#f8f487;
+  color:#0b400f;
+}
+
+.site-map-column {
+	float:left;
+	margin:20px 120px 40px 30px;
+	border-left: #888888 solid 2pt;
+}
+.tier-two-container {
+	border-left: #888888 solid 2pt;
+	margin: 0 0 0 31px;
+	position:relative;
+}
+.left-cover {
+	height: 100%;
+	width: 2px;
+	background: #dcdcdc;
+	position: absolute;
+	margin: 4px 0 0 -35px;
+}
+.left-cover-box-4 {
+	height: 100%;
+	width: 2px;
+	background: #dcdcdc;
+	position: absolute;
+	margin: 0 0 0 -2px;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	overflow: hidden;
+	color: inherit;
+}
+a:hover {
+	text-decoration: none;
+	outline: none;
+	overflow: hidden;
+	color: #ff6700;
+}
+a:active {
+	text-decoration: none;
+	outline: none;
+	overflow: hidden;
+}
+a:visited {
+	text-decoration: none;
+	outline: none;
+	overflow: hidden;
+}
