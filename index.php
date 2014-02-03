@@ -5,7 +5,7 @@
 	?>
 	<body>
 	<?php
-		include('header.php')
+		include('header.php');
 	?>
 	<div id="page">
 		<?php
@@ -15,11 +15,12 @@
 			
 			<div id="page-table">
 				<h1>Index</h1>
-				<h4><a href="sitemap.php">Site Map</a></h4>
-				<h4>Wireframes</h4>
-				<h4>Comps</h4>
-				<h4>Personas</h4>
-				<h4>Project</h4> 
+				<h4><a href="sitemap.php">Current Site Map</a></h4>
+				<h4><a href="revisedsitemap.php">Revised Site Map</a></h4>
+				<h4><a target="_blank" href="http://invis.io/2QN4GXPU">Wireframes</a></h4>
+				<h4><a target="_blank" href="http://ff.donc.dev.mediarain.com/">Comps</a></h4>
+				
+				
 			</div> <!-- #page-table -->
 		</div>
 
@@ -41,3 +42,6 @@
     </script>
 </body>
 </html>
+
+
+
